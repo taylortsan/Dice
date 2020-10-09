@@ -96,15 +96,12 @@ class Die //models one single dice cube
       ellipse(myX + 70, (myY + diceSize/6), diceSize/5, diceSize/5);
     }
     if (side == 6) {
-      ellipse((myX + diceSize/2), (myY + diceSize/2), diceSize/5, diceSize/5);
-      ellipse((myX + diceSize/2), (myY + 70), diceSize/5, diceSize/5);
-      ellipse((myX + diceSize/2), (myY + 15), diceSize/5, diceSize/5);
-      ellipse((myX + 15), (myY + diceSize/2), diceSize/5, diceSize/5);
-      ellipse((myX + 15), (myY + 70), diceSize/5, diceSize/5);
-      ellipse((myX + 15), (myY + 15), diceSize/5, diceSize/5);
-      ellipse((myX + 70), (myY + diceSize/2), diceSize/5, diceSize/5);
-      ellipse((myX + 70), (myY + 70), diceSize/5, diceSize/5);
-      ellipse((myX + 70), (myY + 15), diceSize/5, diceSize/5);
+      ellipse((myX + 20), (myY + diceSize/2), diceSize/5, diceSize/5);
+      ellipse((myX + 20), (myY + 70), diceSize/5, diceSize/5);
+      ellipse((myX + 20), (myY + 15), diceSize/5, diceSize/5);
+      ellipse((myX + 65), (myY + diceSize/2), diceSize/5, diceSize/5);
+      ellipse((myX + 65), (myY + 70), diceSize/5, diceSize/5);
+      ellipse((myX + 65), (myY + 15), diceSize/5, diceSize/5);
     }
   }
 }
